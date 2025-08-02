@@ -1,0 +1,21 @@
+number=int(input('enter the number: '))
+#if(taske expr):
+   #statement
+#else:
+   #statement
+
+if number % 2 == 0:
+    print("even number")
+
+else:
+    print("odd number")
+
+# Initialize the sum
+total_sum = 0
+
+# Use a for loop to iterate from 1 to 50
+for number in range(1, 51):
+    total_sum += number
+
+# Display the final sum
+print("The sum of numbers from 1 to 50 is:", total_sum)
